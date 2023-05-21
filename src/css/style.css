@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 380px;
+    height: 460px;
+    background: linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%);
+    box-shadow: -2.5777px 6.87386px 20.6216px rgba(0, 0, 0, 0.23);
+    border-radius: 20px;
+}
+
+.logo {
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 76px;
+    height: 22px;
+    background-image: url('logo.png');
+}
+
+.top_img {
+    margin-top: 28px;
+    margin-left: 36px;
+    width: 308px;
+    height: 168px;
+    background-image: url('top_img.png');
+}
+
+.line {
+    width: 380px;
+    height: 8px;
+    margin-top: 18px;
+    background: #EBD8FF;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #AE7BE3, inset 0px 3.43693px 2.5777px #FBF8FF;
+}
+
+
+.avatar {
+    position: absolute;
+    top: 180px;
+    left: 153px;
+    width: 60px;
+    height: 60px;
+    border: 10px solid #EBD8FF;
+    border-radius: 50%;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.06), inset 0px -1.71846px 3.43693px #AE7BE3, inset 0px 3.43693px 2.5777px #FBF8FF;
+}
+
+.tweets {
+    margin-top: 62px;
+    margin-bottom: 0;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #EBD8FF;
+}
+
+.followers {
+    margin-top: 16px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #EBD8FF;
+    margin-bottom: 0;
+}
+
+.button {
+    margin-top: 26px;
+    padding: 14px 56px;
+    cursor: pointer;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1.22;
+    text-transform: uppercase;
+    color: #373737;
+    background: #EBD8FF;
+    box-shadow: 0px 3.43693px 3.43693px rgba(0, 0, 0, 0.25);
+    border-radius: 10.3108px;
+}
+
+.button.active {
+    background-color: #5CD3A8;
+}
+
+.load-more {
+    margin-top: 25px;
+    border-radius: 10px;
+    padding: 10px 40px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.load-more:hover {
+    background-color: #5CD3A8;
+}
+
+.load-more:disabled {
+    background-color: #c1c1c1;
+    cursor: not-allowed;
+}
+
+.load-more.hidden {
+    display: none;
+}
